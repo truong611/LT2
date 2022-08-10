@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+        justify-content: space-between;
+        align-items: center;
+        height: 10vh;
+    }
+
+    .topnav p {
+        color: white;
+        font-size: large;
+        font-weight: 500;
+        font-weight: 500;
+        font-style: initial;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+            "Lucida Sans", Arial, sans-serif;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #logoName {
+        font-size: 30px;
+    }
+
+    .topnav a {
+        color: white;
+    }
+
+    .topnav .navleft {
+        width: 20%;
+        margin-right: 50px;
+    }
+
+    /* .img{
+        display: flex;
+        flex-direction: column;
+    } */
+    .img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .img span {
+        color: white;
+        font-size: 50px;
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    .img p {
+        color: white;
+        font-size: 15px;
+        font-family: "Times New Roman", Times, serif;
+        justify-content: center;
+        display: flex;
+    }
+
+    .prf {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 60vh;
+        border-top: white 3px solid;
+    }
+
+    .prf .prfAvatar {
+        width: 40%;
+        background-color: black;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prf img {
+        border-radius: 50%;
+    }
+
+    .prf .prfLeft {
+        width: 50%;
+    }
+
+    .prf span {
+        color: white;
+        font-size: xx-large;
+        font-weight: 700;
+        font-family: "Times New Roman", Times, serif;
+        display: flex;
+        margin-top: 4vh;
+        /* border:white 1px solid; */
+        height: 10vh;
+    }
+
+    .prf p {
+        color: white;
+        font-size: medium;
+        font-weight: 100;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 4vh;
+        /* border:white 1px solid; */
+    }
+
+    .prf ul {
+        color: white;
+        font-size: medium;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    }
+
+    .prd {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prd span {
+        color: white;
+        font-size: xx-large;
+        font-weight: 500;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        margin-top: 10vh;
+        margin-bottom: 8vh;
+
+    }
+
+    #prdgallery {
+        margin-left: 5vw;
+    }
+
+    div.gallery {
+        margin: 5px;
+        float: left;
+        width: 30%;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+        color: white;
+    }
+
+    .bottomContact {
+        height: 40vh;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+        margin-left: 30%;
+    }
+
+    .bottomContact span {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: x-large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+    }
+
+    .bottomContact p {
+        color: white;
+        font-size: large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+    }
+
+    #line {
+        width: 30vw;
+        border-bottom: 2px solid white;
+    }
+</style>
+
+<body>
+    <div class="topnav">
+        <p id="logoName">alice ta</p>
+        <p class="navleft">
+            <a href="" line="none">About</a>
+            <a href="">Works</a>
+            <a href="">Contact</a>
+        </p>
+    </div>
+
+    <image
+        src="https://img.freepik.com/premium-photo/young-backpacker-with-looking-enjoying-sunrise-top-mountain_623166-25.jpg"
+        style="width: 100%">
+        <div class="img">
+            <span> Hi, it's me Alice </span>
+            <p>POD Deginer | Email Marketer</p>
+        </div>
+    </image>
+
+    <div class="prf">
+        <div class="prfAvatar">
+            <img class="imgAvatar"
+                src="https://media.2dep.vn/upload/nganntk/2021/03/25/tai-sao-justin-bieber-khong-xam-hinh-o-ban-tay-1-1616666704.jpg"
+                alt="Avatar" width="400" height="400" />
+        </div>
+        <div class="prfLeft">
+            <span>About me</span>
+            <p>
+                I am a junior manager for an E-commerce company in Hanoi. My experiences in graphic design, email marketing, and market researching enable me to cultivate essential hard and soft skills such as design thinking and problem-solving. My long-term ambition is to work as a design consultant specialist in the E-commerce industry.
+            </p>
+            <ul>
+                <li>Name: Alice Ta</li>
+                <li>DOB: Spet 24th, 1999</li>
+            </ul>
+            <div>
+                <!-- icon -->
+            </div>
+        </div>
+    </div>
+
+    <div class="prd">
+        <span>My Works</span>
+        <div id="prdgallery">
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://vtv1.mediacdn.vn/thumb_w/650/2022/6/8/justin-bieber-toronto-1024x576-16546791104691399810345.jpg">
+                    <img src="https://vtv1.mediacdn.vn/thumb_w/650/2022/6/8/justin-bieber-toronto-1024x576-16546791104691399810345.jpg"
+                        alt="Cinque Terre" width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://images.news18.com/ibnlive/uploads/2022/05/justin-bieber-16533897043x2.jpg">
+                    <img src="https://images.news18.com/ibnlive/uploads/2022/05/justin-bieber-16533897043x2.jpg"
+                        alt="Forest" width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://assets.teenvogue.com/photos/57c85744f6d677dd6d1226f4/16:9/w_2560%2Cc_limit/GettyImages-577292088.jpg">
+                    <img src="https://assets.teenvogue.com/photos/57c85744f6d677dd6d1226f4/16:9/w_2560%2Cc_limit/GettyImages-577292088.jpg"
+                        alt="Northern Lights" width="600" height="400">
+                </a>
+            </div>
+
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://znews-photo.zingcdn.me/w660/Uploaded/neg_yslewlx/2022_08_01/bieber_1.jpg">
+                    <img src="https://znews-photo.zingcdn.me/w660/Uploaded/neg_yslewlx/2022_08_01/bieber_1.jpg"
+                        alt="Mountains" width="600" height="400">
+                </a>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="https://www.nme.com/wp-content/uploads/2022/04/Justin-Bieber-Peaches.jpg">
+                    <img src="https://www.nme.com/wp-content/uploads/2022/04/Justin-Bieber-Peaches.jpg" alt="Mountains"
+                        width="600" height="400">
+                </a>
+            </div>
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://nypost.com/wp-content/uploads/sites/2/2022/04/bieber.jpg?quality=75&strip=all&w=1024">
+                    <img src="https://nypost.com/wp-content/uploads/sites/2/2022/04/bieber.jpg?quality=75&strip=all&w=1024"
+                        alt="Mountains" width="600" height="400">
+                </a>
+            </div>
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://nhipsongshowbiz.vn/wp-content/uploads/2022/07/justin-bieber-1-16549135899211621007441.jpg">
+                    <img src="https://nhipsongshowbiz.vn/wp-content/uploads/2022/07/justin-bieber-1-16549135899211621007441.jpg"
+                        alt="Mountains" width="600" height="400">
+                </a>
+            </div>
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202206/Capture_12_1200x768_1200x768.jpeg?OVfk2iAUhPuVR8lkkFI3PC3ramExeRuQ&size=770:433">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202206/Capture_12_1200x768_1200x768.jpeg?OVfk2iAUhPuVR8lkkFI3PC3ramExeRuQ&size=770:433"
+                        alt="Mountains" width="600" height="400">
+                </a>
+            </div>
+            <div class="gallery">
+                <a target="_blank"
+                    href="https://www.highlandernews.org/wp-content/uploads/radar.JustinBieber.LouStejskalCC2.0Flickr.jpg">
+                    <img src="https://www.highlandernews.org/wp-content/uploads/radar.JustinBieber.LouStejskalCC2.0Flickr.jpg"
+                        alt="Mountains" width="600" height="400">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottomContact">
+        <span>CONTACT ME</span>
+        <p>Alice Ta</p>
+        <div id="line"></div>
+        <p>tathhang24@gmail.com</p>
+        <div id="line"></div>
+        <p>
+            + 84 817 838 638
+        </p>
+        <div id="line"></div>
+        <p>Looking forword to contacting with you!</p>
+        <div id="line"></div>
+    </div>
+</body>
+
+</html>
